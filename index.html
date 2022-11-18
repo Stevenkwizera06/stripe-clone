@@ -26,7 +26,7 @@
     <section
       class="absolute bg-gradient-to-r from-purple-500 via-yellow-400 to-pink-500  ease-in-out duration-1.8s  h-[70vh] w-full  -skew-y-12  -top-48">
     </section>
-    
+
     <section class="flex">
       <div class="flex flex-col gap-9 mt-24 relative px-8 lg:pl-36 md:w-[44rem] md:mt-48 md:ml-36">
 
@@ -42,15 +42,15 @@
           <a href="#" class="text-black bg-gray-600 px-5 py-2 rounded-3xl font-semibold">Start now</a>
           <a href="#" class="font-semibold">Contact sales</a>
         </div>
-  
+
       </div>
       <div class="hidden md:flex md:relative md:mb-4">
         <img src="./assets/images/screens.svg" alt="">
       </div>
-  
+
     </section>
 
-   
+
     <!--ICONS-->
     <section class="px-8">
       <div class="w-full grid grid-cols-2 py-28 place-items-center gap-y-16 md:grid-cols-4">
@@ -67,40 +67,51 @@
 
     <!--Unified platform-->
 
-    <section class="bg-slate-100 md:px-14">
+    <section class="bg-slate-100 md:px-14 ">
 
-      <section class="px-4 flex flex-row">
-        <div class="px-4 border-x flex flex-col gap-8 mt-20">
+      <section class="px-4 flex md:pb-10">
+        <div class="px-4 border-x flex flex-col gap-8 mt-20 md:flex-row">
           <div class="flex flex-col gap-8 ">
-            <h4 class="text-lg text-primary_blue font-bold">Unified platform</h4>
-            <h3 class="font-bold text-3xl">A fully integrated suite of payments products</h3>
-            <p class="font-medium">We bring together everything that’s required to build websites and apps that accept
-              payments and
-              send payouts
-              globally.
-              Stripe’s products power payments for <span class="text-primary_blue">online and in-person retailers,
-                subscriptions businesses, software
-                platforms and
-                marketplaces,</span> and everything in between.
-            </p>
+            <h4 class="text-lg text-primary_blue font-bold ">Unified platform</h4>
+            <h3 class="font-bold text-3xl md:w-1/2">A fully integrated suite of payments products</h3>
+
+            <div class="flex flex-col gap-4 mb-20 text-lg md:flex-row md:w-fit md:gap-48">
+              <p class="font-medium md:w-6/12">We bring together everything that’s required to build websites and apps
+                that accept
+                payments and
+                send payouts
+                globally.
+                Stripe’s products power payments for <span class="text-primary_blue">online and in-person retailers,
+                  subscriptions businesses, software
+                  platforms and
+                  marketplaces,</span> and everything in between.
+              </p>
+              <p class="font-medium md:w-1/2 md:-ml-36">We also help companies <span class="text-primary_blue">beat
+                  fraud, send invoices, issue
+                  virtual and physical cards,
+                  reduce friction at
+                  checkout, get
+                  financing, manage business spend,</span> and much more.
+              </p>
+            </div>
+
           </div>
-          <div>
-            <p class="font-medium">We also help companies <span class="text-primary_blue">beat fraud, send invoices, issue
-              virtual and physical cards,
-              reduce friction at
-              checkout, get
-              financing, manage business spend,</span> and much more.
-          </p>
-          </div>
-          
-          <a href="#" class="text-white bg-primary_blue px-5 py-2 rounded-3xl font-semibold w-fit">Start with payments</a>
         </div>
+
       </section>
-  
-  
-  
-  
+
+      <div>
+        <a href="#" class="text-white bg-primary_blue px-5 py-2 ml-6 rounded-3xl font-semibold w-fit">Start with
+          payments</a>
+      </div>
+
+
+
+
+
+
       <!--desktop-->
+
       <div class="hidden md:grid grid-cols-3  pt-10">
         <img src="./assets/images/image4.png" alt="visa card" />
         <img src="./assets/images/image5.png" alt="payment" />
@@ -119,14 +130,14 @@
       </div>
 
     </section>
-    
 
 
+    <!-- Designed developers-->
     <section class="mt-10 ">
-      <div class="bg-primary_dark -skew-y-6  min-h-[700px] pb-14">
-        <div class="skew-y-6 px-8 py-10 md:py-24 md:px-14">
+      <div class="bg-primary_dark -skew-y-6  min-h-[700px] pb-14 md:flex md:max-[1024px] md:px-28">
+        <div class="skew-y-6 px-8 py-10 md:py-24 md:px-14 md:w-1/2">
           <div class="flex flex-col gap-7">
-            <h4 class="text-accent_blue font-semibold text-lg md:px-14">Designed for developers</h4>
+            <h4 class="text-accent_blue font-semibold text-lg ">Designed for developers</h4>
             <h3 class="text-white font-bold text-3xl">The world’s most powerful and easy-to-use APIs</h3>
             <p class="text-text_color font-medium">We agonize over the right abstractions so your teams don’t need to
               stitch
@@ -136,7 +147,7 @@
             <a href="#" class=" bg-accent_blue px-5 py-1 rounded-3xl font-semibold w-fit hover:bg-white delay-75">Read
               the docs</a>
           </div>
-          <div class="mt-8 flex flex-col gap-9">
+          <div class="mt-8 flex flex-col gap-9 md:flex-row">
             <div class="flex flex-col gap-3">
               <img class="w-12" src="./assets/images/terminal_icon.png" alt="terminal icon">
               <h4 class="text-white font-bold">Tools for every stack</h4>
@@ -153,7 +164,7 @@
           </div>
         </div>
 
-        <div class="skew-y-6 mb-32">
+        <div class="skew-y-6 mb-32 mt-10 md:w-[540px]">
           <img src="./assets/images/vscode.png" alt="">
         </div>
       </div>
@@ -161,16 +172,20 @@
 
 
 
-              <!--Why Stripe-->
+    <!--Why Stripe-->
 
-    <section class="mt-24">
+    <section class="mt-24 md:px-28">
+
+
+
+
       <div class="px-6">
         <div class="px-4 border-x">
           <div class="flex flex-col gap-5">
             <h4 class="text-primary_blue text-lg font-bold">Why stripe</h4>
-            <h3 class="font-bold text-4xl">A technology-first approach to payments and finance</h3>
+            <h3 class="font-bold text-4xl md:w-[740px]">A technology-first approach to payments and finance</h3>
           </div>
-          <div class="grid grid-cols-1 mt-8 gap-9">
+          <div class="grid grid-cols-1 mt-8 gap-9 md:grid-cols-4 ">
             <div class="flex flex-col gap-3">
               <img src="./assets/images/tools.png" class="w-12" alt="tools image">
               <h4 class="font-semibold">Close to the metal</h4>
@@ -201,7 +216,7 @@
                 and optimize at
                 every level of the financial stack.</p>
             </div>
-            <div class="flex flex-col gap-3">
+            <div class="flex flex-col gap-3 md:mb-36">
               <img src="./assets/images/gear.png" class="w-12" alt="tools image">
               <h4 class="font-semibold">Fastest-improving platform</h4>
               <p>From <span class="text-primary_blue font-semibold">direct integrations</span> with card networks and
@@ -223,18 +238,21 @@
       </div>
 
       <div
-        class="bg-primary_dark relative top-[7vw] bg-[url('../assets/images/globe_bg.png')] bg-no-repeat bg-center bg-cover">
-        <div class=" px-8 py-20">
-          <div class="flex flex-col gap-7">
+        class="bg-primary_dark relative top-[7vw] bg-[url('../assets/images/globe_bg.png')] bg-no-repeat bg-center bg-cover ">
+        <div class="md:px-32 px-8 py-20">
+          <div class="flex flex-col gap-7 md:">
             <h4 class="text-accent_blue font-semibold text-lg">Global scale</h4>
-            <h3 class="text-white font-bold text-3xl">The backbone for internet business</h3>
-            <p class="text-text_color font-medium">For ambitious companies around the world, Stripe makes moving money
+            <h3 class="text-white font-bold text-4xl md:w-[400px]">The backbone for internet business</h3>
+            <p class="text-text_color font-medium md:text-1xl md:w-[380px]">For ambitious companies around the world,
+              Stripe makes moving money
               as simple, borderless, and programmable as the rest
               of the internet. Our teams are based in dozens of offices around the world and we process hundreds of
-              billions of
-              dollars each year for startups to Fortune 500s.</p>
+              billions of dollars each year for
+              <span class="text-accent_blue font-semibold hover:text-white cursor-pointer"> startups to Fortune
+                500s.</span>
+            </p>
           </div>
-          <div class="mt-8 flex flex-col gap-9">
+          <div class="mt-8 flex flex-col gap-9 md:flex-row mb-20 md:w-[1000px]">
             <div class="flex flex-col gap-3">
               <h4 class="text-white text-3xl font-bold">250M+</h4>
               <p class="text-text_color text-sm">API requests per day, peaking at 13,000 requests per second.</p>
@@ -257,31 +275,35 @@
     </section>
 
 
-     <!--Get started-->
-    <section class="px-4 mt-[14vw]">
-      <div class="px-4 border-x flex flex-col gap-8">
-        <h3 class="font-bold text-2xl">Ready to get started?</h3>
-        <p class="font-medium">Explore Stripe Payments, or create an account instantly and start accepting payments. You
-          can also contact us to design
-          a custom package for your business.</p>
-        <div class="space-x-4">
-          <a href="#" class="text-white bg-primary_blue px-5 py-1 rounded-3xl font-semibold w-fit">Start now</a>
-          <a href="#" class="text-primary_blue font-semibold">Contact sales</a>
+    <!--Get started-->
+    <section class="px-4 mt-[14vw] md:px-28">
+      <div class="px-4 border-x flex flex-col gap-8 md:flex-row">
+        <div class="gap-10">
+          <h3 class="font-bold text-2xl ]">Ready to get started?</h3>
+          <p class="font-medium mt-4 md:w-[380px] md:mt-8">Explore Stripe  <span class="text-primary_blue font-semibold hover:text-black cursor-pointer">Payments</span>, or create an account instantly and start accepting payments.
+            You
+            can also contact us to design
+            a custom package for your business.</p>
+          <div class="space-x-4 mt-8">
+            <a href="#" class="text-white bg-primary_blue px-5 py-1 rounded-3xl font-semibold w-fit">Start now</a>
+            <a href="#" class="text-primary_blue font-semibold">Contact sales</a>
+          </div>
         </div>
-        <div class="mt-4 flex flex-col gap-8">
-          <div class="flex flex-col gap-3">
+
+        <!-- <div class="mt-4 flex flex-col gap-8"> -->
+          <div class="flex flex-col gap-3 mt-4 md:mt-0">
             <img src="./assets/images/gear.png" class="w-12" alt="tools image">
             <h4 class="font-semibold">Fastest-improving platform</h4>
             <p>Integrated per-transaction pricing with no hidden fees</p>
             <a href="#" class="text-primary_blue font-semibold">Pricing details</a>
           </div>
-          <div class="flex flex-col gap-3">
+          <div class="flex flex-col gap-3 mt-4 md:mb-72">
             <img src="./assets/images/gear.png" class="w-12" alt="tools image">
             <h4 class="font-semibold">Fastest-improving platform</h4>
             <p>Integrated per-transaction pricing with no hidden fees</p>
             <a href="#" class="text-primary_blue font-semibold">Pricing details</a>
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </section>
 
@@ -290,29 +312,36 @@
     <section class="mt-10 relative">
       <div class="-skew-y-6  w-full bg-slate-100  h-[13vw] absolute top-0">
       </div>
-      <div class="bg-slate-100 relative top-[7vw] bg-no-repeat bg-center bg-cover">
-        <div class=" px-8 py-20">
-          <div class="mt-8 grid grid-cols-2 gap-12">
-            <div class="flex flex-col gap-2 col-span-2">
-              <img class="w-16 bg" src="./assets/images/logo_white.svg" alt="">
-              <div class="flex items-center gap-2">
-                <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
-                  <path
-                    d="M3.54 8.04h4.42v4.43c0 .57.76.75 1.01.24l4.96-9.93a.54.54 0 0 0-.72-.72L3.3 7.03c-.5.25-.33 1.01.24 1.01"
-                    fill="#0A2540" fill-rule="evenodd"></path>
-                </svg>
-                <h4>United states</h4>
+      <div class="bg-slate-100 relative top-[7vw] bg-no-repeat bg-center bg-cover md:px-28px">
+        <div class="md:px-32 px-8 py-20">            
+          <div class="mt-8 grid grid-cols-2 gap-12 md:grid-cols-4 md:gap-4">
+
+                  <!--1-->
+            <div class="flex flex-col gap-2 col-span-2 md:col-span-1 md:justify-between">
+              <div>
+                <img class="w-16 " src="./assets/images/logo_white.svg" alt="">
+                <div class="flex items-center gap-2 md:mt-2">
+                  <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
+                    <path
+                      d="M3.54 8.04h4.42v4.43c0 .57.76.75 1.01.24l4.96-9.93a.54.54 0 0 0-.72-.72L3.3 7.03c-.5.25-.33 1.01.24 1.01"
+                      fill="#0A2540" fill-rule="evenodd"></path>
+                  </svg>
+                  <h4>United states</h4>
+                </div>
+                <div class="flex items-center gap-2">
+                  <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
+                    <path
+                      d="M7.5 2C10.91 2 13 4.01 13 6.5c0 2.07-1.45 3.82-3.92 4.34L6.62 13.3a.66.66 0 0 1-1.12-.46v-2.1C3.29 10.12 2 8.45 2 6.5 2 4.01 4.09 2 7.5 2z"
+                      fill="#0A2540" fill-rule="evenodd"></path>
+                  </svg>
+                  <h4>English (United States)</h4>
+                </div>
               </div>
-              <div class="flex items-center gap-2">
-                <svg class="LocaleControl__triggerIcon" width="16" height="16" viewBox="0 0 16 16">
-                  <path
-                    d="M7.5 2C10.91 2 13 4.01 13 6.5c0 2.07-1.45 3.82-3.92 4.34L6.62 13.3a.66.66 0 0 1-1.12-.46v-2.1C3.29 10.12 2 8.45 2 6.5 2 4.01 4.09 2 7.5 2z"
-                    fill="#0A2540" fill-rule="evenodd"></path>
-                </svg>
-                <h4>English (United States)</h4>
-              </div>
+            
               <h4>© 2022 Stripe, Inc.</h4>
             </div>
+
+            <!--2-->
             <div class="flex flex-col gap-8">
               <div class="flex flex-col gap-2">
                 <h4 class="font-semibold">Products</h4>
@@ -341,8 +370,8 @@
                 <a href="#">Terminal</a>
                 <a href="#">Treasury</a>
               </div>
-              <div class="flex flex-col gap-2">
-                <h4 class="font-semibold">Products</h4>
+              <div class="flex flex-col gap-2 md:hidden">
+                <h4 class="font-semibold">Resources</h4>
                 <a href="#">Atlas</a>
                 <a href="#">Billing</a>
                 <a href="#">Capital</a>
@@ -356,6 +385,8 @@
                 <a href="#">Identity</a>
               </div>
             </div>
+
+                 <!--3-->
             <div class="flex flex-col gap-14">
               <div class="flex flex-col gap-2">
                 <h4 class="font-semibold">Use Cases</h4>
@@ -383,7 +414,7 @@
                 <a href="#">API Changelog</a>
                 <a href="#">Build a Stripe App</a>
               </div>
-              <div class="flex flex-col gap-2">
+              <div class="flex flex-col gap-2 md:hidden">
                 <h4 class="font-semibold">Company</h4>
                 <a href="#">Jobs</a>
                 <a href="#">Newsroom</a>
@@ -391,6 +422,31 @@
                 <a href="#">Become a Partner</a>
               </div>
             </div>
+
+            <div class="">
+              <div class="flex flex-col gap-2 ">
+                <h4 class="font-semibold">Resources</h4>
+                <a href="#">Atlas</a>
+                <a href="#">Billing</a>
+                <a href="#">Capital</a>
+                <a href="#">Checkout</a>
+                <a href="#">Climate</a>
+                <a href="#">Connect</a>
+                <a href="#">Corporate Card</a>
+                <a href="#">Data pipeline</a>
+                <a href="#">Elements</a>
+                <a href="#">Financial Connections</a>
+                <a href="#">Identity</a>
+              </div>
+              <div class="hidden md:flex md:flex-col md:gap-2 md:mt-8">
+                <h4 class="font-semibold">Company</h4>
+                <a href="#">Jobs</a>
+                <a href="#">Newsroom</a>
+                <a href="#">Stripe Press</a>
+                <a href="#">Become a Partner</a>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
