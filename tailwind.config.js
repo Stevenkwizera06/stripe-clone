@@ -13,6 +13,7 @@ module.exports = {
         accent_blue: '#00d4ff',
         text_color: '#adbdcc',
         background_gray: '#f6f9fc',
+        dark_gray: '#778089',
       },
       backgroundImage:{
         globe: "url('./assets/images/globe_bg.png')",
