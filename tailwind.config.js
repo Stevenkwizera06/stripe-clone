@@ -7,16 +7,27 @@ module.exports = {
         open_sans: ['Open Sans', 'sans-serif'],
       },
       colors: {
-        primary_dark: '#0a2540',
-        primary_blue: '#635bff',
-        background_dark_blue: '#0a2540',
-        accent_blue: '#00d4ff',
-        text_color: '#adbdcc',
-        background_gray: '#f6f9fc',
-        dark_gray: '#778089',
+        'primary-dark': '#0a2540',
+        'primary-blue': '#635bff',
+        'accent-blue': '#00d4ff',
+        'text-color': '#adbdcc',
+        'dark-gray': '#778089',
       },
       backgroundImage:{
-        globe: "url('./assets/images/globe_bg.png')",
+        globe: "url('../assets/images/globe_bg.png')",
+      },
+      height:{
+        medium: '70vh',
+      },
+      width:{
+        medium: '44rem',
+        '150':'400px',
+        '200': '540px',
+        '350': '740px',
+        '500':'1000px'
+      },
+      margin:{
+        "15":'59px'
       }
     },
   },
