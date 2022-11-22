@@ -17,12 +17,13 @@ module.exports = {
         globe: "url('../assets/images/globe_bg.png')",
       },
       height:{
-        medium: '70vh',
+        '250': '70vh',
       },
       width:{
         medium: '44rem',
         '150':'400px',
         '200': '540px',
+        '300': '704px',
         '350': '740px',
         '500':'1000px'
       },
