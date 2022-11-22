@@ -1,0 +1,23 @@
+{
+  "name": "stripe-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenkwizera06/stripe-clone.git"
+  },
+  "author": "Stev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenkwizera06/stripe-clone/issues"
+  },
+  "homepage": "https://github.com/Stevenkwizera06/stripe-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
