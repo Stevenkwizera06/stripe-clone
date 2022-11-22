@@ -20,7 +20,6 @@ module.exports = {
         '250': '70vh',
       },
       width:{
-        medium: '44rem',
         '150':'400px',
         '200': '540px',
         '300': '704px',
